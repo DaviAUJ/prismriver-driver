@@ -1,8 +1,9 @@
-obj-m := HelloWorldFromKernel.o
-KDIR  ?= /lib/modules/$(shell uname -r)/build
+obj-m = PrintingDevice.o
 
-all: modules
-install: modules_install
+all: build clean
 
-modules modules_install help clean:
-	$(MAKE) -C $(KDIR) M=$(shell pwd) $(@)
+build:
+	make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) modules
+
+clean:
+	rm -f .*.cmd .*.o *.order *.symvers *.mod* *.o
