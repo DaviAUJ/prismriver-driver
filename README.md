@@ -7,12 +7,15 @@ Aluno: Davi Araújo do Nascimento
 Professor: Bruno Otávio Piedade Prado
 
 ## Etapas de desenvolvimento
-- [ ] Estudo e testes de drivers de USB para Linux
+- [x] Estudo e testes de drivers de HID para Linux
 - [ ] Driver reconhece comandos dados no controle
 - [ ] Driver traduz os comandos para comandos de teclado
-- [ ] Driver traduz os comandos para comandos dentro do Clone Hero
-- [ ] Aplicativo de terminal feito
+- [ ] ~Driver traduz os comandos para comandos dentro do Clone Hero~
+- [ ] ~Aplicativo de terminal feito~
 - [ ] Finalização e organização
+
+### Mudança nos planos
+O foco agora será alterar o driver existente do linux hid-sony.c para digitar como um teclado.
 
 ## Ferramentas/Recursos
 https://gitlab.freedesktop.org/libevdev/hid-tools
