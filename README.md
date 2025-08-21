@@ -13,3 +13,11 @@ Professor: Bruno Otávio Piedade Prado
 - [ ] Driver traduz os comandos para comandos dentro do Clone Hero
 - [ ] Aplicativo de terminal feito
 - [ ] Finalização e organização
+
+## Ferramentas/Recursos
+https://gitlab.freedesktop.org/libevdev/hid-tools
+https://docs.kernel.org/hid/hidintro.html
+https://bruno.dcomp.ufs.br/aulas/ihs/ihs_12_gerenciadores_dispositivos.pdf
+https://bruno.dcomp.ufs.br/aulas/ihs/ihs_11_gerenciadores_dispositivos.pdf
+https://github.com/rizsotto/Bear
+https://github.com/torvalds/linux/blob/master/drivers/hid/hid-sony.c
